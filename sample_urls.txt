@@ -1,0 +1,7 @@
+# One URL per line. Blank lines and lines starting with '#' are ignored.
+# Bare domains are assumed to be https://
+# You can also put a trailing comment after a URL like:  https://x.com   # note
+
+example.com
+https://www.iana.org/domains/reserved
+http://neverssl.com

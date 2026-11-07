@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Status Checker (GUI dialog)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/status_code_checker.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Status Checker (CLI: sample_urls.txt)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/status_code_checker.py",
+      "args": ["sample_urls.txt"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
